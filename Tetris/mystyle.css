@@ -1,0 +1,45 @@
+#tetris, #_table {
+    border-collapse: collapse;
+}
+#_table {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#tetris td {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
+#_table td {
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+}
+td.white {
+    background-color: white;
+}
+td.red {
+    background-color: red;
+}
+td.blue {
+    background-color: blue;
+}
+td.orange {
+    background-color: orange;
+}
+td.green {
+    background-color: green;
+}
+td.navy {
+    background-color: navy;
+}
+td.violet {
+    background-color: violet;
+}
+td.yellow {
+    background-color: yellow;
+}
+td.black {
+    background-color: black;
+}

@@ -1,0 +1,38 @@
+    
+<!doctype html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tetris</title>
+
+</head>
+<body>
+    <table id="tetris">
+    </table>
+    <table id="_table">
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+    </table>
+    <button id="stop">Pause</button>
+    <button id="start">Restart</button>
+    <button id="playORmute">BGM</button>
+    <div>Score: <span id="score">0</span></div>
+    <audio id="bgm" src="./Tetris_theme.ogg.mp3" autoplay></audio>
+    <script src="./tetris.js"></script>
+
+</body>
+</html>
